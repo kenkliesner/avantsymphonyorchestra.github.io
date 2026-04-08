@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<BaseLayout title="Avant Symphony Orchestra">
+  <Header />
+
+  <section class="text-center py-20">
+
+    <!--
+    <h1 class="text-5xl font-bold">Avant Symphony Orchestra</h1>
+    <p class="mt-4 text-gray-400">A modern orchestra redefining classical performance.</p>
+    -->
+
+    <img 
+      src="public/Avant_Symphony_Orchestra_logo_design_black.jpg" 
+      alt="Avant Symphony Orchestra Logo"
+      class="mx-auto mb-6 w-32 md:w-140 white-border"
+    />
+  </section>
+
+  <section class="text-center">
+
+    <!--
+    <h1 class="text-5xl font-bold">Avant Symphony Orchestra</h1>
+    <p class="mt-4 text-gray-400">A modern orchestra redefining classical performance.</p>
+    -->
+
+    <img 
+      src="public/full_symphony_picture.png" 
+      alt="Avant Full Symphony Snapshot"
+      class="mx-auto mb-6 w-32 md:w-280"
+    />
+    <br>
+  </section>
+
+  <Footer />
+</BaseLayout>

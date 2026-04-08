@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<BaseLayout title="Contact">
+  <Header />
+  <div class="text-center p-12">
+    <h1 class="text-4xl font-bold">Contact the ASO</h1>
+  </div>
+  <div class="max-w-xl mx-auto p-8">
+    <h3 class="text-3xl font-bold">Mailing Address:</h3>
+    <p class="text-gray-400 mt-2">
+      Avant Symphony Orchestra
+      <br>
+      555 Skokie Blvd, Suite 490 Northbrook, IL  60062 USA
+    </p>
+
+    <br>
+    
+    <h3 class="text-3xl font-bold">Email Address:</h3>
+    <p class="text-gray-400 mt-2">info@avantsymphony.org</p>
+
+    <br>
+    
+    <h3 class="text-3xl font-bold">Phone Number:</h3>
+    <p class="text-gray-400 mt-2">(847) 757-5555</p>
+
+  </div>
+
+  <Footer />
+</BaseLayout>

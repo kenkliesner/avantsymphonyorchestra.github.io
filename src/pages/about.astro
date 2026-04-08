@@ -1,0 +1,87 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<BaseLayout title="About">
+  <Header />
+
+  <div class="max-w-4xl mx-auto p-8 space-y-10">
+    <section>
+      <h2 class="text-3xl font-bold">Mission</h2>
+      <p class="text-gray-400 mt-2">Our mission is to...</p>
+    </section>
+
+    <section>
+      <h2 class="text-3xl font-bold">Mina Zikri, Founder & Director</h2>
+      
+      <br>
+      
+      <img 
+        src="public/mina_headshot.png" 
+        alt="Mina Zikri Headshot"
+        class="mx-auto mb-6 w-32 md:w-40"
+      />
+      
+      <p class="text-gray-400 mt-2">
+        As Founder, Music Director, and Conductor of the Oistrakh Symphony of Chicago, Mina Zikri is using his considerable talents to forge relationships with artists and musical organizations throughout the world, all in the name of developing new audiences for classical music. Recently he traveled with Daniel Baremboim as the backstage and assistant conductor for Wagner’s <i>Tristan and Isolde</i> on a tour that took them to Europe and South America performing at the Salzburg Festival in Austria, at The Lucerne Festival in Switzerland, and at Buenos Aires’ legendary Teatro Colón. He returns each season to his native Egypt to guest-conduct the National Symphony.
+      </p>
+      
+      <br>
+      
+      <p class="text-gray-400 mt-2">
+        At a time when even some of the greatest orchestras in the United States are failing under the immense pressures of financial and cultural uncertainty, Zikri believes that the future of symphony orchestras can be, should be, and must be different form what everyone seems to expect.
+      </p>
+      
+      <br>
+      
+      <p class="text-gray-400 mt-2">
+        A member of the faculty of DePaul University Community Music Division, his many career distinctions include his being named one of the twelve finalists in the 2007 Gustav Mahler International Conducting Competition, where he was chosen from 223 candidates from 40 countries. He has attended the American Academy of Conducting in Aspen, Colorado, on a fellowship, and holds Bachelor’s and Master’s degrees from DePaul University, as well as a Performance Certificate in violin.
+      </p>
+      
+      <br>
+
+      <p class="text-gray-400 mt-2">
+        Mr. Zikri has been the resident conductor for the Lira ensemble since 2011.  In 2018 Mr. Zikri made his conducting debut at Carnegie Hall with the Oistrakh Symphony of Chicago, with a return performance in June 2019. Mr. Zikri was appointed Music Director of the Northbrook Symphony Orchestra and assumed his artistic leadership duties in the 2019/2020 season. 
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-3xl font-bold">Board / Staff</h2>
+      <p class="text-gray-400 mt-2">Board members...</p>
+    </section>
+
+    <section>
+      <h2 class="text-3xl font-bold">Media</h2>
+      <p class="text-gray-400 mt-2">Photos/videos...</p>
+    </section>
+
+    <section>
+      <h2 class="text-3xl font-bold">Concerts & Events</h2>
+      <!--
+      <p class="text-gray-400 mt-2">Upcoming events...</p>
+      -->
+
+      <br>
+
+      <div class="card">
+        <h3>Spring Concert Series</h3>
+        <p>April 2026 • Chicago, IL</p>
+        <div class="text-center p-12">
+          <a href="https://musicbooking.depaul.edu/EventAvailability?WebEventId=20260411avantpiano" class="text-accent mt-2 inline-block">
+            Learn More →
+            <img 
+              src="public/event_thomas_nickell_piano.png" 
+              alt="Mina Zikri Headshot"
+              class="mx-auto mb-6 w-32 md:w-140"
+            />
+          </a>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <Footer />
+</BaseLayout>
